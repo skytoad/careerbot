@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="goals">
+    <category>
+        <pattern>^ MONEY ^</pattern>
+        <template>Making <set name="goal"></set>money is very important. How much money are you looking to make?</template>
+    </category>
+
+    <category>
+        <pattern>A bajillion dollars</pattern>
+        <template>Alrighty then!</template>
+    </category>
+    
+    <category>
+        <pattern>^ SKILLS ^</pattern>
+        <template>Developing professional skills is very important.</template>
+    </category>
+    
+    <category>
+        <pattern>^ FUN ^</pattern>
+        <template>Having fun is very important. What type of work is more fun: hands-on, or conceptual?</template>
+    </category>
+    
+    <category>
+        <pattern>hands-on</pattern>
+        <template>I can see a lot of sensibility in that answer. I'm starting to get a good idea of what you like. Now, how would you rate your knwledge and skills?</template>
+    </category>
+</topic>
+</aiml>

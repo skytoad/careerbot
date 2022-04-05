@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-<topic name="name">
+    <topic name="name">
     <category>
         <pattern>MY NAME IS *</pattern>
-	    <template>Nice to meet you, <set name="name"><star/></set>. As I understand, you are looking for career counseling. Are you about to graduate soon?</template>
-	    <set name="topic">farts</set>
+	    <template>
+	        Nice to meet you, <set name="name"><star/></set>. 
+	        
+	        <think><set name="topic">values</set></think>
+	        <br></br>
+	        Let's talk about what you value in a job. Which is most important to you in the workplace: Work-life balance, professional skill development, or fun and fulfilling work?
+	    </template>
+	    
     </category>
     
     <category>
         <pattern>*</pattern>
-	    <template>Nice to meet you, <set name="name"><star/></set>. As I understand, you are looking for career counseling. Are you about to graduate soon?</template>
+	    <template>
+	        Nice to meet you, <set name="name"><star/></set>. 
+	        
+	        <think><set name="topic">values</set></think>
+	        <br></br>
+	        Let's talk about what you value in a job. Which is most important to you in the workplace: Work-life balance, professional skill development, or fun and fulfilling work?
+	    </template>
     </category>
+    </topic>
     
     <category>
         <pattern>WHAT IS MY NAME</pattern>
 	    <template>Your name is <get name="name"/></template>
     </category>
-</topic>
 </aiml>

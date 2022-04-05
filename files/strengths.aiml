@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <topic name="strengths">
+        <category>
+            <pattern>*</pattern>
+            <template>
+                I see. So, you value <get name="values"></get>, and are strong with <star/>. 
+            </template>
+        </category>
+    </topic>
+</aiml>
