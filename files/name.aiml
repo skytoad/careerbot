@@ -4,6 +4,7 @@
     <category>
         <pattern>MY NAME IS *</pattern>
 	    <template>Nice to meet you, <set name="name"><star/></set>. As I understand, you are looking for career counseling. Are you about to graduate soon?</template>
+	    <set name="topic">farts</set>
     </category>
     
     <category>
