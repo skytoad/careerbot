@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Hello</pattern>
+	    <template>
+	        <random>
+	            <set name="topic">name</set>
+	            <li>Hi there! My name is careerbot. What's your name?</li>
+	            <li>Hello, my name is careerbot. What's yours?</li>
+	        </random>
+	    </template>
+	</category>
+	<category>
+	    <pattern>Hi</pattern>
+	    <template>
+	        <random>
+	            <li>Hi there! My name is careerbot. What's your name?</li>
+	            <li>Hello, my name is careerbot. What's yours?</li>
+	        </random>
+	    </template>
+	</category>
 </aiml>
