@@ -6,7 +6,7 @@
 	    <template>
 	        Work-life balance is essential to a happy and productive career. 
 	        
-	        <br></br><think><set name="topic">strengths</set><set name="values">WLB</set></think>
+	        <think><set name="topic">strengths</set><set name="values">WLB</set></think>
 	        
 	        To narrow it down further, let's explore your strengths. Would you say you are stronger with creativty, or attention to detail?
 	        
@@ -14,13 +14,27 @@
 	</category>
 	
 	<category>
-	    <pattern># SKILLS #</pattern>
-	    <template> Continuing to develop professional skills is critical for career growth.</template>
+	    <pattern># SKILL #</pattern>
+	    <template> 
+	        Continuing to develop professional skills is critical for career growth.
+	    
+	        <think><set name="topic">strengths</set><set name="values">professional skill development</set></think>
+	        
+	        To narrow it down further, let's explore your strengths. Would you say you are stronger with programming, or attention to detail?
+	    </template>
 	</category>
 	
 	<category>
 	    <pattern># FUN #</pattern>
-	    <template> Agreed, there is nothing more important than having fun with the work you do.</template>
+	    <template> 
+	        Agreed, there is nothing more important than having fun with the work you do.
+	        <think><set name="topic">strengths</set><set name="values">fun</set></think>
+	        
+	        To narrow it down further, let's explore your strengths. Would you say you are stronger with creativty, or attention to detail?
+	    </template>
+	</category>
+	
+	<category>
 	</category>
 	</topic>
 </aiml>

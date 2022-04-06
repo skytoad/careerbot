@@ -4,7 +4,11 @@
         <category>
             <pattern>*</pattern>
             <template>
-                I see. So, you value <get name="values"></get>, and are strong with <star/>. 
+                I see. So, you value <get name="values"></get>, and are strong with <lowercase><star/></lowercase>.
+                
+                <br></br><br></br>
+                
+                Based on these traits, I would reccomend a career as a <map name="jobs"><get name="values"></get>,<star/></map>. 
             </template>
         </category>
     </topic>

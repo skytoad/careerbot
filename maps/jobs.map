@@ -1,1 +1,8 @@
-[["sample_key", "sample_value"]]
+[
+["fun,creativity", "Video Game Developer"],
+["fun,attention to detail", "Web Developer"],
+["professional skill development,attention to detail", "Web Developer"],
+["professional skill development,programming", "Machine Learning Engineer"],
+["WLB,attention to detail", "QA Engineer"],
+["WLB,creativity", "Database Architect"]
+]
