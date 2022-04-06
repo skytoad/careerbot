@@ -2,13 +2,37 @@
 <aiml version="2.0">
     <topic name="strengths">
         <category>
-            <pattern>*</pattern>
+            <pattern># CREATIVITY #</pattern>
             <template>
-                I see. So, you value <get name="values"></get>, and are strong with <lowercase><star/></lowercase>.
+                <think><set name="strength">creativity</set></think>
+                <srai>SUGGESTION</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern># ATTENTION TO DETAIL #</pattern>
+            <template>
+                <think><set name="strength">attention to detail</set></think>
+                <srai>SUGGESTION</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern># PROGRAMMING #</pattern>
+            <template>
+                <think><set name="strength">prorgamming</set></think>
+                <srai>SUGGESTION</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>SUGGESTION</pattern>
+            <template>
+                I see. So, you value <get name="values"></get>, and are strong with <get name="strength"></get>.
                 
                 <br></br><br></br>
                 
-                Based on these traits, I would reccomend a career as a <map name="jobs"><get name="values"></get>,<star/></map>. 
+                Based on these traits, I would reccomend a career as a <map name="jobs"><get name="values"></get>,<get name="strength"></get></map>. 
             </template>
         </category>
     </topic>

@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-	    <pattern>Hello</pattern>
+	    <pattern># HELLO #</pattern>
 	    <template>Hi there! My name is careerbot. What's your <set name="topic">name</set>?</template>
 	</category>
 	<category>
-	    <pattern>Hi</pattern>
-	    <template>
-	        <random>
-	            <li>Hi there! My name is careerbot. What's your name?</li>
-	            <li>Hello, my name is careerbot. What's yours?</li>
-	        </random>
-	    </template>
+	    <pattern># HI #</pattern>
+        <template>Hi there! My name is careerbot. What's your <set name="topic">name</set>?</template>
 	</category>
 </aiml>
